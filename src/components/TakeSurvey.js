@@ -56,7 +56,7 @@ const TakeSurvey = () => {
           </div>
         );
       })}
-      <Link className="btn btn-lg btn-warning m-lg-3" to="/">
+      <Link className="btn btn-lg btn-warning m-lg-3" to="/survey-tiger/">
         Submit Survey
       </Link>
     </div>

@@ -13,17 +13,17 @@ function App() {
       <LocalStoreProvider>
         <Router>
           <h3>
-            <Link to="/">Survey Tiger</Link>
+            <Link to="/survey-tiger/">Survey Tiger</Link>
           </h3>
           <div className="m-3">
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/survey-tiger/">
                 <LandingPage />
               </Route>
-              <Route exact path="/create-survey">
+              <Route exact path="/survey-tiger/create-survey">
                 <CreateSurvey />
               </Route>
-              <Route exact path="/take-survey">
+              <Route exact path="/survey-tiger/take-survey">
                 <TakeSurvey />
               </Route>
             </Switch>

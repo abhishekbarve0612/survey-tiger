@@ -65,8 +65,8 @@ const CreateSurvey = () => {
     form.reset();
     cleanup();
     if (addNew) {
-      history.push("/create-survey");
-    } else history.push("/");
+      history.push("/survey-tiger/create-survey");
+    } else history.push("/survey-tiger/");
   };
 
   const publishQuestion = () => {
